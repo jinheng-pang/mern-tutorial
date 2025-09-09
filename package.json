@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon dist/server.js",
-    "build": "tsc && npm run dev"
+    "dev": "npx tsc && tsx src/server.ts",
+    "buid": "tsc && dist/server.js"
+    
   },
   "keywords": [],
   "author": "",
